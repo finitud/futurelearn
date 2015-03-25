@@ -1,7 +1,13 @@
+PATH
+  remote: .
+  specs:
+    tic_tac_toe (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
+    rake (10.4.2)
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
       rspec-expectations (~> 3.2.0)
@@ -20,4 +26,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.7)
+  rake (~> 10.0)
   rspec
+  tic_tac_toe!
